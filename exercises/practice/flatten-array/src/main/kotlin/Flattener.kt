@@ -1,6 +1,6 @@
 object Flattener {
-    //every test must be runned setting the others not involved in @ignore
-    //this because the Flattener is a singleton object
+    /*every test must be runned setting the others not involved in @ignore
+    this because the Flattener is a singleton object*/
 
 
     private val flatList= mutableListOf<Int>()
