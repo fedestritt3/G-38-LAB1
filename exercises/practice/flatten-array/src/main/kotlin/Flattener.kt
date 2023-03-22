@@ -3,8 +3,7 @@ object Flattener {
     //this because the Flattener is a singleton object
     private val flatList= mutableListOf<Int>()
     fun flatten(source: Collection<Any?>): List<Any> {
-
-       for(element in source){
+        for(element in source){
            when( element) {
                is Int -> flatList.add(element)
 
